@@ -1,22 +1,27 @@
-<!DOCTYPE html>
+<!DOCTYPE html>s
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
 </head>
 
 <body>
+
+	<!-- Navigation Menu -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
 	  <a class="navbar-brand" href="#">Kayla Kotewall</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<!-- 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
-	  </button>
+	  </button> -->
 	  <div class="collapse navbar-collapse" id="navbarNav">
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item">
-	        <a class="nav-link" href="">About<span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="#">Portfolio</a>
@@ -30,38 +35,41 @@
 
 	<div class="container">
 
+		<!-- First Row -->
 	    <div class="row">
-	    	<div class="col-md-8 mt-3 mb-3">
-	    		<header>
-	    			<h1>About Me</h1>
-	    		</header>
-	    	</div>
-	    	<div class="col-md-4">
+
+	    	<!-- About Me section -->
+	    	<div class="col-md-7">
+		    	<div class="card">
+					<div class="card-body">
+						<h4 class="card-title">About Me
+						</h4>
+						<img src="../images/nature_400_200.jpg" alt="scenic image" style="float:left;width:400px;height:200;margin:5px;">
+						<p>Lorem ipsum dolor amet tumeric lo-fi organic, truffaut tattooed microdosing authentic church-key. Retro tote bag portland, fashion axe selvage shaman semiotics taiyaki bitters enamel pin. Bicycle rights glossier thundercats man bun, everyday carry godard cold-pressed umami man braid meggings blue bottle fanny pack hoodie cray. Brunch swag kale chips palo santo put a bird on it listicle single-origin coffee celiac cray.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact Sidebar -->
+	    	<div class="col-md-5">
 				<div class="card">
 					<div class="card-header">
 						Connect with Me
 					</div>
 					<div class="card-body">
-						<a href="https://github.com/kkotewall" class="btn btn-primary">GitHub</a>
-						<a href="" class="btn btn-primary">LinkedIn</a>
-						<a href="#" class="btn btn-primary">Stackover Flow</a>
+						<a href="https://github.com/kkotewall" target="_blank"><img src="../images/github_logo.png" class="img-fluid" alt="Github">
+						</a>
+						<a href="https://www.linkedin.com/in/kkotewall" target="_blank"><img src="../images/linkedin_logo.png" class="img-fluid" alt="LinkedIn">
+						</a>
+						<a href="https://stackoverflow.com/users/8519709/kaywall" target="_blank"><img src="../images/stackoverflow_logo.png" class="img-fluid" alt="StackOverflow">
+						</a>
 					</div>
 				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-3 mt-5">
-				<a href="https://placeholder.com"><img src="http://via.placeholder.com/200x100"></a>
-			</div>
-
-			<div class="col-md-5 mt-5">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus, libero a venenatis iaculis, augue sapien fringilla libero, non imperdiet mauris nibh id elit. Donec sed nisi et enim sodales hendrerit id ut risus. Praesent aliquet velit a purus pretium, vitae interdum enim bibendum. Nulla rutrum tortor nunc, sit amet cursus lectus congue sit amet. Vivamus pharetra et ligula eget eleifend. Nulla non nulla euismod, dignissim magna eget, porttitor tellus.</p>
-			</div>
-
-			<div class="col-md-4">
 			</div>
 
 		</div>
 
 	</div>
+
+</body>
